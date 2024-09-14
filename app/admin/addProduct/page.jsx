@@ -1,6 +1,6 @@
 'use client';
 import React, { useState,useEffect } from 'react'
-import Layout from '../Layout'
+import Layout from '../layout'
 import { assets } from '@/Assets/assets'
 import Image from 'next/image'
 import axios from 'axios';
