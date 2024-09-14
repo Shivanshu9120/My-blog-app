@@ -1,4 +1,3 @@
-import Layout from "./Layout";
 
 // page.js
 const AdminPage = () => {
