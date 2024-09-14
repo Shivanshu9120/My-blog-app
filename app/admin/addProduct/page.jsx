@@ -7,7 +7,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify'; // Add ToastContainer and toast import
 import 'react-toastify/dist/ReactToastify.css';
 
-const page = () => {
+const Page = () => {
 
   const [image,setImage] = useState(null);
   const [data,setData] = useState({
@@ -77,4 +77,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
