@@ -47,7 +47,7 @@ const BlogList = () => {
        <div className="text-center">No blogs available.</div>
        )}
 
-      <div className='flex flex-wrap justify-around gap-1 gap-y-10 mb-16 xl:mx-24'>
+      <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {blogs.filter((item)=> menu==="All"?true:item.category===menu).map((item,index)=>{
             return <BlogItem key={index} id={item._id} image={item.image} title={item.title} category={item.category} description={item.description} />
         })}
